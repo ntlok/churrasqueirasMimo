@@ -1,7 +1,7 @@
-// $('.knife__items').slick({
-//   slidesToShow: 3,
-//   slidesToScroll: 1,
-//   autoplay: true,
-//   autoplaySpeed: 2000,
-  
-// });
+var accordionHeaders = document.querySelectorAll('.item__header');
+
+accordionHeaders.forEach(itemClicked => {
+  itemClicked.addEventListener('click', () => {
+    itemClicked.classList.toggle('active')
+  })
+});
