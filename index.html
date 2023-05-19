@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS do Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   
   <link rel="stylesheet" href="style/index.css">
   <title>Document</title>
@@ -12,34 +15,40 @@
   <div class="background_img">
     <img  src="/img/Component-1.jpg" alt="">
   </div>
-  <div class="container">
-    <div class="describe">
-      <div class="description">
-        <h2>Churrasqueira <br> Mimo</h2>
-        
-        <div class="text">
-          <p>
-            Reunir a família e os amigos para um bom churrasco sempre é uma boa pedida! 
-            E para ficar ainda mais gostoso, a Churrasqueira Mimo é a melhor opção. 
-          </p>
+  <div class="describe">
+    <div class="container">
+      <div class="describe__wrapper">
+        <div class="description">
+          <h2>Churrasqueira <br> Mimo</h2>
           
-          <p>
-            Através de beleza, design e tecnologia, a churrasqueira Mimo 
-            se encaixa perfeitamente no seu espaço com segurança e praticidade, 
-            além de funcionar à gás, de forma mais sustentável.
-          </p>
-         
-          <p>
-            É o churrasco do futuro direto na sua casa!
-          </p>
+          <div class="text">
+            <p>
+              Reunir a família e os amigos para um bom churrasco sempre é uma boa pedida! 
+              E para ficar ainda mais gostoso, a Churrasqueira Mimo é a melhor opção. 
+            </p>
+            
+            <p>
+              Através de beleza, design e tecnologia, a churrasqueira Mimo 
+              se encaixa perfeitamente no seu espaço com segurança e praticidade, 
+              além de funcionar à gás, de forma mais sustentável.
+            </p>
+           
+            <p>
+              É o churrasco do futuro direto na sua casa!
+            </p>
+          </div>
+  
+          <a href="/">Explorar</a>
+          
         </div>
+        <div class="image_description">
+          <img src="/img/gif.svg" alt="">
+        </div>
+      </div>
+    </div>
 
-        <a href="/">Explorar</a>
-        
-      </div>
-      <div class="image_description">
-        <img src="/img/gif.svg" alt="">
-      </div>
+    <div class="img__mobile">
+      <img src="/img/mobile/churrasqueira_mobile.svg" alt="">
     </div>
   </div>
   <div class="churrasqueira">
@@ -92,7 +101,13 @@
   </div>
   <div class="apartament">
 
-    <img src="/img/Component-2.jpg" alt="">            
+    <div class="apartament__desktop">
+      <img src="/img/Component-2.jpg" alt="">    
+    </div>      
+    
+    <div class="apartament__mobile">
+      <img src="/img/mobile/apartment_mobile.svg" alt="">
+    </div>
   </div>                
 
   <div class="models">
@@ -126,7 +141,7 @@
   <div class="install">
     <div class="container">
       <div class="install__wrapper">
-          <span>
+          <span class="install__title">
             Fácil de instalar <br>
             Configa o passo a passo e monte a sua churrasqueira Mimo Style
           </span>
@@ -149,40 +164,104 @@
       <div class="knife__wrapper">
         <span class="knife__title">Leve seu churrasco para outro nível</span>
 
-        <div class="knife__items">
-          <div class="item">
-            <img src="/img/knife-1.svg" alt="">
 
-            <div class="item__details">
-              <span class="title">Inserir nome do produto</span>
-              <span class="price">R$129,00</span>
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper knife__items">
+            <div class="swiper-slide">
+              <div class="item">
+                <img src="/img/knife-1.svg" alt="">
+    
+                <div class="item__details">
+                  <span class="title">Inserir nome do produto</span>
+                  <span class="price">R$129,00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <img src="/img/knife-1.svg" alt="">
+    
+                <div class="item__details">
+                  <span class="title">Inserir nome do produto</span>
+                  <span class="price">R$129,00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <img src="/img/knife-1.svg" alt="">
+    
+                <div class="item__details">
+                  <span class="title">Inserir nome do produto</span>
+                  <span class="price">R$129,00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <img src="/img/knife-1.svg" alt="">
+    
+                <div class="item__details">
+                  <span class="title">Inserir nome do produto</span>
+                  <span class="price">R$129,00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <img src="/img/knife-1.svg" alt="">
+    
+                <div class="item__details">
+                  <span class="title">Inserir nome do produto</span>
+                  <span class="price">R$129,00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <img src="/img/knife-1.svg" alt="">
+    
+                <div class="item__details">
+                  <span class="title">Inserir nome do produto</span>
+                  <span class="price">R$129,00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <img src="/img/knife-1.svg" alt="">
+    
+                <div class="item__details">
+                  <span class="title">Inserir nome do produto</span>
+                  <span class="price">R$129,00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <img src="/img/knife-1.svg" alt="">
+    
+                <div class="item__details">
+                  <span class="title">Inserir nome do produto</span>
+                  <span class="price">R$129,00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <img src="/img/knife-1.svg" alt="">
+    
+                <div class="item__details">
+                  <span class="title">Inserir nome do produto</span>
+                  <span class="price">R$129,00</span>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="item">
-            <img src="/img/knife-2.svg" alt="">
 
-            <div class="item__details">
-              <span class="title">Inserir nome do produto</span>
-              <span class="price">R$129,00</span>
-            </div>
-          </div>
-          <div class="item">
-            <img src="/img/knife-3.svg" alt="">
-
-            <div class="item__details">
-              <span class="title">Inserir nome do produto</span>
-              <span class="price">R$129,00</span>
-            </div>
-          </div>
-          <div class="item">
-            <img src="/img/knife-4.svg" alt="">
-
-            <div class="item__details">
-              <span class="title">Inserir nome do produto</span>
-              <span class="price">R$129,00</span>
-            </div>
-          </div>
-
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </div>
     </div>
@@ -193,5 +272,38 @@
       <img src="/img/Component-3.jpg" alt="">
     </div>
   </div>
+
+
+
+
+  <!-- JS do Swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+   <script src="/js/index.js"></script>
+
+   <script>
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 2, // Exibir 4 slides
+        // slidesPerGroup: 4,
+        spaceBetween: 10, // Espaço entre os slides
+        loop: true, // Habilitar loop
+
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        breakpoints: {
+          620: {
+            slidesPerView: 3,
+          },
+          800: {
+            slidesPerView: 4
+          }
+
+        }
+      });
+   </script>
 </body>
 </html>
